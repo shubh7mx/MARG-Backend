@@ -1,0 +1,7 @@
+flask
+gunicorn
+networkx
+numpy
+scipy
+shapely
+folium
