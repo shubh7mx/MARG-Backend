@@ -1,0 +1,22 @@
+# Python artifacts
+__pycache__/
+*.pyc
+
+# Heavy assets the server never loads at runtime
+data/indian_ocean_graph.pickle
+data/indian_ocean_graph_with_additional_grib_data.pickle
+data/MainGraph.pickle
+data/*.html
+data/CoastlineData/
+data/indian_ocean_only.shp
+data/indian_ocean_only.dbf
+data/indian_ocean_only.prj
+data/indian_ocean_only.shx
+data/indian_ocean_only.cpg
+
+# Forecast scratch data
+data/ForecastData/
+
+# Local junk
+.env
+.DS_Store

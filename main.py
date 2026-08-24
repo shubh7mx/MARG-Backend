@@ -24,6 +24,11 @@ def direct_distance_km(a, b):
     return 2 * 6371 * math.asin(math.sqrt(h))
 
 
+@app.route('/', methods=['GET'])
+def health():
+    return jsonify({"status": "ok", "service": "MARG by Shubham"}), 200
+
+
 @app.route('/map', methods=['POST'])
 def get_user_input():
     user_input = request.json
